@@ -1,0 +1,184 @@
+/* Prevent nav bar from covering content */
+body { 
+    padding-top: 75px; 
+}
+
+/* Custom line height to support logo */
+.navbar-brand,
+.navbar-nav li img {
+    padding-top: 0;
+}
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+section {
+	display:flex;
+	padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.events-section,
+.musings-section,
+.contact-section {
+    background: #fff;
+}
+
+.retreats-section, 
+.testimonials-section {
+    background: #eee;
+}
+
+.jumbotron {
+	padding: 100px 0 0 0;
+	background-image: image-url("woods_1920_1200_med.jpg");
+	background-position:40% 40%;
+	background-size:cover;
+	height: 700px;
+}
+
+.jumbotron .container{
+		display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+	align-items:flex-start;
+	color: white;
+	height:100%;
+	margin-left:3em;
+	padding-bottom:5em;
+}
+
+.event a {
+	height:200px;
+	border-style: solid;
+	font-color:black;
+	overflow:hidden;
+	display:flex;
+	align-items:center;
+	justify-content:center;	
+}
+
+.event img{
+	position: center center;
+}
+
+.event .event-bereavement img {
+	repeat: repeat-x;
+}
+
+.event h2{
+	text-align:right;
+	margin:0;
+	padding-bottom: 1em;
+}
+
+#testimonials .quote {
+	padding: 50px;	
+}
+
+#testimonials span {
+	font-size: 2em;
+}
+
+#testimonials .quote-by::before {
+	content:"~";
+	font-size:1.5em;
+}
+#testimonials .quote-by {
+	font-style: italic;
+	font-size:1.5em;
+}
+
+#retreats .retreat {
+	display:flex;
+	padding: 3em;
+}
+
+#retreats .retreat img {
+	align-self:center;
+	width: 64px;
+    height: 64px;
+    min-width: 64px;
+    min-height: 64px;
+}
+
+#retreats .retreat-text {
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:flex-start;
+	text-align:left;
+	padding-left:2em;
+}
+
+
+#retreats .retreat-title {
+	margin:0 0 0 0;
+	font-weight:bold;
+	font-size:2em;
+}
+
+#retreats .retreat-by {
+	margin:0 0 0 0;
+	font-style:italic;
+	margin-bottom:2em;
+}
+
+#musings .carousel-caption p,
+#musings .carousel-caption span {
+	padding-bottom:1em;
+	text-align:right;
+	font-weight:bold;
+	font-size:2.75vw;
+}
+#musings .carousel-caption.long {
+	font-size:2.5vw;
+}
+
+#musings .carousel-caption span {
+	padding:1em 0 1em 0;
+	float:right;
+	font-style:italic;
+}
+
+#contact {
+	justify-content: flex-end;
+	text-align:left;
+	padding:10px;
+}
+#contact h2{
+	margin:1.5em 0 0 0;
+}
+#contact h3:first-of-type {
+	margin:1em 0 0 0;
+}
+#contact h3 {
+	margin: 0;
+}
+#contact .lbl {
+	font-weight:bold;
+}
+#contact .tax{
+	padding:0;
+}
+#contact span, #contact div{
+	padding:3px 3px 3px 0;
+}
+
+footer {
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+	align-items:center;
+}
+footer, footer p{
+	margin:0px;
+	padding:0px;
+}
+
+.event-page p {
+	font-size:1.2em;
+}
