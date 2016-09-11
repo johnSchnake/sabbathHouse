@@ -4,40 +4,41 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Sabbath House</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p>This is a template for a short statement of purpos for Sabbath House</p>
       </div>
     </div>
 
     <!-- About Section -->
     <section id="events" class="events-section">
-    <div class="row">
-                <div class="col-lg-12">
-                    <h1>Events</h1>
-                </div>
-            </div>
             <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-3">
+      <div class="col-lg-12">
+                    <h1>Events</h1>
+                </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="event">
           <h2>Fall Fridays</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6" >
+        <div class="event">
           <h2>Bereavement Ministry</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
        </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
+        <div class="event">
           <h2>Evening Prayer</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
+        <div class="event">
           <h2>Lent 2017 - Say Yes</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
         </div>
       </div>
     </section>
@@ -48,6 +49,24 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Retreats</h1>
+                    <div >
+                      <%= image_tag("/assets/images/plant-64.png") %> 
+                      <p class="retreat-title">Becoming More by Doing Less</p>
+                      <p class="retreat-by">by Terry Hershey</p>
+                      <p class="retreat-desc">Exploring the need and the blessing of choosing to live a Rhythm of Sabbath.</p>
+                    </div>
+                    <div>
+                      <%= image_tag("/assets/images/flame-64.png") %>
+                      <p class="retreat-title">Catching Fire, Becoming Flame</p>
+                      <p class="retreat-by">by Albert Haase, OFM</p>
+                      <p class="retreat-desc">Ever wonder how some people become enthusiastic and on fire about their relationship with God? Father Albert Haase gives you the tools and kindling to prepare for the spark of God in your life – and then shows you how to fan it into flame until you are set ablaze.</p>
+                    </div>
+                    <div>
+                      <%= image_tag("/assets/images/music-64.png") %> 
+                      <p class="retreat-title">Sabbath: Restoring the Sacred Rhythm of Rest</p>
+                      <p class="retreat-by">inspired by Wayne Mueller’s book on Sabbath</p>
+                      <p class="retreat-desc">It has become our greeting: “I’m so busy.” His book seeks to heal our harried lives, and show us how to create a special time of rest, delight, and renewal – a refuge for our souls.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,7 +78,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Musings on Keeping the Sabbath</h1>
-                    <p> Place a carasoul here of teachings/quotes </p>
+                    <%= render 'pages/musings' %>
                 </div>
             </div>
         </div>
@@ -69,8 +88,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Testimonials</h1>
-                    <p> Big attractive quote; ideally with a photo </p>
+                    <i class="fa fa-5x fa-quote-left" aria-hidden="true"></i><span>Some quote about how great you are. If it is really long, the quote.....is really long, the quote.....is really long, the quote.....is really long, the quote.....</span>
+                </div>
+                <div class="col-lg-12">
+                    <i class="fa fa-5x fa-quote-left" aria-hidden="true"></i><span>Some quote about how great you are. If it is really long, the quote.....is really long, the quote.....is really long, the quote.....is really long, the quote.....</span>
                 </div>
             </div>
         </div>
@@ -82,6 +103,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Contact Section</h1>
+                    <p>Sabbath House Ministry</p>
+                    <p>Tax code: #47-1242768</p>
+                    <p>Email: #GET EMAIL# </p>
+                    <p>Phone: #GET PHONE# </p>
+                    <%= link_to image_tag("/assets/images/FB-FindUsonFacebook-online-144.png"), "https://www.facebook.com/sharer/sharer.php?u=example.org", :target => "_blank" %>
                 </div>
             </div>
         </div>
@@ -89,5 +115,6 @@
 
       <footer>
         <p>&copy; 2016 Sabbath House</p>
+        <div>Icons made by <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
       </footer>
     </div> <!-- /container -->

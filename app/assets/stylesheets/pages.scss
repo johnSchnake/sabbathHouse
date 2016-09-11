@@ -1,6 +1,50 @@
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+section {
+	//height: 700px !important;
+}
+
+.events-section,
+.musings-section,
+.contact-section {
+    		display:flex;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.retreats-section, 
+.testimonials-section {
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .jumbotron {
 	padding: 100px 0 0 0;
+}
+
+.event {
+	display:flex;
+	height:200px;
+	align-items:flex-end;
+	justify-content:flex-end;
+	flex-direction:column;
+	border-style: solid;
+	margin: 5px;
+	padding: 5px;
+}
+
+.event h2{
+	text-align:right;
+}
+
+#testimonials span {
+	font-size: 2em;
 }
