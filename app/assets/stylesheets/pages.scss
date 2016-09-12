@@ -3,31 +3,40 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 section {
-	//height: 700px !important;
+	display:flex;
+	padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 .events-section,
 .musings-section,
 .contact-section {
-    		display:flex;
-    padding-top: 150px;
-    text-align: center;
     background: #fff;
 }
 
 .retreats-section, 
 .testimonials-section {
-    padding-top: 150px;
-    text-align: center;
     background: #eee;
 }
 
-
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 .jumbotron {
 	padding: 100px 0 0 0;
+	background-image: image-url("/assets/images/cross-66700_1920.jpg");
+	background-position:40% 40%;
+	background-size:cover;
+	height: 700px;
+}
+
+.jumbotron .container{
+		display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+	align-items:flex-start;
+	color: white;
+	height:100%;
+	margin-left:3em;
+	padding-bottom:5em;
 }
 
 .event {
@@ -45,6 +54,41 @@ section {
 	text-align:right;
 }
 
+#testimonials .quote {
+	padding: 50px;	
+}
+
 #testimonials span {
 	font-size: 2em;
+}
+
+#retreats .retreat {
+	display:flex;
+	padding: 3em;
+}
+
+#retreats .retreat img {
+	align-self:center;
+}
+
+#retreats .retreat-text {
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:flex-start;
+	text-align:left;
+	padding-left:2em;
+}
+
+
+#retreats .retreat-title {
+	margin:0 0 0 0;
+	font-weight:bold;
+	font-size:2em;
+}
+
+#retreats .retreat-by {
+	margin:0 0 0 0;
+	font-style:italic;
+	margin-bottom:2em;
 }
