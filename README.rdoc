@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This site was designed for a friend and local Nun who has a passion for helping others celebrate the Sabbath.
 
-Things you may want to cover:
+It was also an opportunity for me to learn some RoR and deploy another site for the first time.
 
-* Ruby version
+Included is a RoR app which can also be nearly served as a static site. The organization had a hosting agreement
+which made it hard to use RoR so I actually had to deploy it like that. Using a running version of the site I used
+wget to pull the HTML and then tweaked it to fix any resulting issues.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Note: A .apcignore and continuum.conf file is included. This allows the Rails app to be deployed to an Apcera Platform cluster in seconds (database and all).
