@@ -17,25 +17,21 @@
       <div class="col-lg-12">
                     <h1>Events</h1>
                 </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="event">
+        <div class="col-md-3 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 event event-fall">
+          <%= link_to image_tag("/assets/images/fall-big.png"), pages_path("fallfridays") %>
           <h2>Fall Fridays</h2>
-          </div>
         </div>
-        <div class="col-md-3 col-sm-6" >
-        <div class="event">
+        <div class="col-md-3 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 event event-bereavement" >
+          <%= link_to image_tag("/assets/images/woods-big.png"),pages_path("bereavement") %>
           <h2>Bereavement Ministry</h2>
-          </div>
        </div>
-        <div class="col-md-3 col-sm-6">
-        <div class="event">
+        <div class="col-md-3 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 event event-prayer">
+          <%= link_to image_tag("/assets/images/pray-big.png"), pages_path("eveningprayer") %>
           <h2>Evening Prayer</h2>
-          </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-        <div class="event">
+        <div class="col-md-3 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 event event-lent">
+          <%= link_to image_tag("/assets/images/lent.png"), pages_path("lent2017") %>
           <h2>Lent 2017 - Say Yes</h2>
-          </div>
         </div>
       </div>
     </section>
@@ -45,10 +41,10 @@
             <div class="row">
             <h1>Retreats</h1>
             If you are interested in a fall retreat offering, 
-            <%=link_to("call Sr. Camille", :anchor => "contact") %>. Leave your name, number and a message to schedule retreat days this Fall 2016. These retreats may be scheduled personally, as couples, or as groups. You may choose from the following offerings:
+            <%= mail_to "camille@sabbathhouseministry.org", "camille@sabbathhouseministry.org", subject:"Sabbath House Retreat Inquiry" %>. Leave your name, number and a message to schedule retreat days this January 2017. These retreats may be scheduled personally, as couples, or as groups. You may choose from the following offerings:
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <div class="retreat">
                       <%= image_tag("/assets/images/plant-64.png") %>
                       <div class="retreat-text">
@@ -93,35 +89,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 quote">
-                    <i class="fa fa-5x fa-quote-left" aria-hidden="true"></i><span>Some quote about how great you are. If it is really long, the quote.....is really long, the quote.....is really long, the quote.....is really long, the quote.....</span>
-                    <p>Quote from xyz</p>
+                    <i class="fa fa-5x fa-quote-left" aria-hidden="true"></i><span>The Sabbath House Ministry is a blessing to all who walk through the doors. It is place of peace and prayer. Attending Lenten retreats and listening to guest speakers have deepened my faith and given me a sense of closeness with others.  It is the perfect place to be still and listen.</span>
+                    <p class="quote-by">Michelle</p>
                 </div>
                 <div class="col-lg-12 quote">
-                    <span>Some quote about how great you are. If it is really long, the quote.....is really long, the quote.....is really long, the quote.....is really long, the quote.....</span><i class="fa fa-5x fa-quote-right" aria-hidden="true"></i>
-                    <p>Quote from xyz</p>
+                    <span>Learning about Sabbath Rest has opened a pathway to God our Creator; it has strengthened my belief in belonging and longing to be part of the Body of Christ</span><i class="fa fa-5x fa-quote-right" aria-hidden="true"></i>
+                    <p class="quote-by">Renee</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
-                    <p>Sabbath House Ministry</p>
-                    <p>Tax code: #47-1242768</p>
-                    <p>Sister Camille</p>
-                    <p>Email: #GET EMAIL# </p>
-                    <p>Phone: 337-998-9114 </p>
-                    <%= link_to image_tag("/assets/images/FB-FindUsonFacebook-online-144.png"), "https://www.facebook.com/sharer/sharer.php?u=example.org", :target => "_blank" %>
-                </div>
-            </div>
-        </div>
-    </section>
 
-      <footer>
-        <p>&copy; 2016 Sabbath House</p>
-        <div>Icons made by <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-      </footer>
     </div> <!-- /container -->

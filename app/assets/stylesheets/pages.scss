@@ -1,3 +1,15 @@
+/* Prevent nav bar from covering content */
+body { 
+    padding-top: 75px; 
+}
+
+/* Custom line height to support logo */
+.navbar-brand,
+.navbar-nav li img {
+    padding-top: 0;
+}
+
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
@@ -22,7 +34,7 @@ section {
 
 .jumbotron {
 	padding: 100px 0 0 0;
-	background-image: image-url("/assets/images/cross-66700_1920.jpg");
+	background-image: image-url("/assets/images/woods_1920_1200_med.jpg");
 	background-position:40% 40%;
 	background-size:cover;
 	height: 700px;
@@ -39,19 +51,28 @@ section {
 	padding-bottom:5em;
 }
 
-.event {
-	display:flex;
+.event a {
 	height:200px;
-	align-items:flex-end;
-	justify-content:flex-end;
-	flex-direction:column;
 	border-style: solid;
-	margin: 5px;
-	padding: 5px;
+	font-color:black;
+	overflow:hidden;
+	display:flex;
+	align-items:center;
+	justify-content:center;	
+}
+
+.event img{
+	position: center center;
+}
+
+.event .event-bereavement img {
+	repeat: repeat-x;
 }
 
 .event h2{
 	text-align:right;
+	margin:0;
+	padding-bottom: 1em;
 }
 
 #testimonials .quote {
@@ -62,6 +83,15 @@ section {
 	font-size: 2em;
 }
 
+#testimonials .quote-by::before {
+	content:"~";
+	font-size:1.5em;
+}
+#testimonials .quote-by {
+	font-style: italic;
+	font-size:1.5em;
+}
+
 #retreats .retreat {
 	display:flex;
 	padding: 3em;
@@ -69,6 +99,10 @@ section {
 
 #retreats .retreat img {
 	align-self:center;
+	width: 64px;
+    height: 64px;
+    min-width: 64px;
+    min-height: 64px;
 }
 
 #retreats .retreat-text {
@@ -91,4 +125,60 @@ section {
 	margin:0 0 0 0;
 	font-style:italic;
 	margin-bottom:2em;
+}
+
+#musings .carousel-caption p,
+#musings .carousel-caption span {
+	padding-bottom:1em;
+	text-align:right;
+	font-weight:bold;
+	font-size:3vw;
+}
+#musings .carousel-caption.long {
+	font-size:2.5vw;
+}
+
+#musings .carousel-caption span {
+	padding:1em 0 1em 0;
+	float:right;
+	font-style:italic;
+}
+
+#contact {
+	justify-content: flex-end;
+	text-align:left;
+	padding:10px;
+}
+#contact h2{
+	margin:1.5em 0 0 0;
+}
+#contact h3:first-of-type {
+	margin:1em 0 0 0;
+}
+#contact h3 {
+	margin: 0;
+}
+#contact .lbl {
+	font-weight:bold;
+}
+#contact .tax{
+	padding:0;
+}
+#contact span, #contact div{
+	padding:3px 3px 3px 0;
+}
+
+footer {
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+	align-items:center;
+}
+footer, footer p{
+	margin:0px;
+	padding:0px;
+}
+
+.event-page p {
+	font-size:1.2em;
 }

@@ -4,3 +4,6 @@
 
 # Bash files are just for me
 *.sh
+
+# Not rails app
+/static-site
