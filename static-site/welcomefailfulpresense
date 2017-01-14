@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SabbathHouse</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="all" href="assets/application-3105d32bc1565440dac3b249c68b4d320d292c4b3962a09a833721ec0e310824.css" data-turbolinks-track="true" />
+  <script src="assets/application-4869a79bcdcd3ed8c7b16cf2b17cdb8121145fe26717b512af4d9a4c04043a41.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="nGo+o6/r01MI1dDHmhM5X5P2VNDMG/Gqj5yAKKy0dPHSP4tXVgoLVmlSn+Ua8ctMLe0DSBskbDHPjVKBvNxgtg==" />
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="fallfridays#page-top"><img width="150" src="assets/images/logotrans.png" alt="Logotrans" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="fallfridays#page-top">home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="fallfridays#events">Events</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="fallfridays#retreats">Retreats</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="fallfridays#musings">Musings</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="fallfridays#testimonials">Testimonials</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="fallfridays#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<div class="container event-page">
+<div class="row">
+<div class="col-lg-12">
+
+<h1>Welcome, Faithful Presense</h1>
+
+<p>
+As we welcome the new liturgical year, you are invited to participate in a week of Evening Prayer.  All are invited to gather at Sabbath House.
+</p>
+<p>
+The format is based upon the Evening Prayer of the Church.  It will include music, scripture, a reflection, and intercessory prayer.  “You will find, when you turn to God in this way, God will not disappoint you.  Christ is always very near; he is waiting for you.“ - William Busch
+</p>
+<p>
+May our communal prayer bless all God’s people and bless those who gather with a renewal of God’s nearness.
+</p>
+<p>Place: Sabbath House 407 Second Street, Jennings</p>
+<p>Dates: Monday, Nov. 28th, Tuesday, Nov. 29th, Wed. Nov. 30th, Thursday Dec. 1st and Friday Dec. 2nd.  You may attend one evening or each evening.</p>
+
+<p class="bold">Please call or text Sabbath House to register (337)998-9114.  This will greatly help our preparation of space and resources.</p>
+</div>
+</div>
+</div>
+</div>
+
+<section id="contact" class="contact-section">
+    <div class="container">
+        <!--<div class="row">-->
+            <div class="col-lg-12">
+                <h1>Contact Us</h1>
+                <address>
+                    <h2>Sabbath House Ministry</h2>
+                    <div>
+                        <h3>Sister Camille Martinez, SEC</h3>
+                        <h3> Sister Jeannette Touchet, SEC</h3>
+                    <div><span class="lbl">Email:</span>
+                        <a href="mailto:camille@sabbathhouseministry.org?subject=Sabbath%20House%20Ministry">camille@sabbathhouseministry.org</a>
+                    </div>
+                    <div><span class="lbl">Phone:</span><span>337-998-9114</span></div>
+                    </div>
+                        <a target="_blank" href="https://www.facebook.com/sabbathHouseMinistry"><img src="assets/images/FB-FindUsonFacebook-online-144.png" alt="Fb findusonfacebook online 144" /></a>
+                </div>
+            </address>
+        <!--</div>-->
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2016 Sabbath House</p>
+    <div>Icons made by <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+</footer>
+
+</body>
+</html>

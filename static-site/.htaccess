@@ -1,0 +1,6 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.sabbathhouseministry\.org$
+RewriteRule ^(.*)$ "http\:\/\/sabbathhouseministry\.org\/$1" [R=301,L]
+RewriteRule ^([^.]*)$ $1 [type=text/html]
