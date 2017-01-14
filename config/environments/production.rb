@@ -75,5 +75,6 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
+  # (SCHNAKE): COMMENTED OUT TO USE WITHOUT DB
+  #config.active_record.dump_schema_after_migration = false
 end

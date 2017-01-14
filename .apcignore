@@ -1,9 +1,0 @@
-# Ignore all logfiles and tempfiles.
-/log/*
-!/log/.keep
-
-# Bash files are just for me
-*.sh
-
-# Not rails app
-/static-site

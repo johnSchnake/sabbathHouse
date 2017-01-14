@@ -14,9 +14,4 @@
 !/log/.keep
 /tmp
 *.log
-
-# Any bash files are just for my own use
-*.sh
-
-# Static site hack
-/static-site
+/localCopy
